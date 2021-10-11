@@ -30,7 +30,7 @@ function App() {
     // console.log("in app component");
     // console.log(expense);
     setExpenses((prevData) => {
-      return [...prevData, expense];
+      return [expense, ...prevData];
     });
   };
   return (
